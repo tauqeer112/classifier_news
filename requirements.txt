@@ -1,3 +1,4 @@
 psycopg2
 scikit-learn==0.21.1
 nltk
+APScheduler==3.0.0
