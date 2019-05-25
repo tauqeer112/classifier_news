@@ -19,9 +19,9 @@ nltk.download('stopwords')
 
 set(stopwords.words('english'))
 
-hostname = 'pillar.cn575bdhhafi.ap-south-1.rds.amazonaws.com'  # host
-username = 'pillar'  # username
-password = 'save1950'  # your password
+hostname = ''  # host
+username = ''  # username
+password = ''  # your password
 database = 'pillar'  # database name
 
 with open('svm_model_linear_lite.pickle', 'rb') as f:
